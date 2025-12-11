@@ -22,15 +22,22 @@ Prerequisites
 Node.js (v18 or higher)
 MongoDB (Local or Atlas)
 Google Cloud Console Project (for OAuth Client ID)
+
 Installation
 Clone the repository:
 bash
 git clone https://github.com/yourusername/buddychat.git
+
 cd buddychat
+
 Install dependencies:
+
 bash
+
 # Install dependencies for both server and client
+
 npm run install:all
+
 Environment Secrets
 Backend (
 server/.env
