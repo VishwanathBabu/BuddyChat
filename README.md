@@ -44,27 +44,27 @@ Backend (
 server/.env
 ) 
 
-**Create a .env**
-</n>
-**File in the server directory:**
-</n>
-env
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/buddychat
-CLIENT_URL=http://localhost:3000
-GOOGLE_CLIENT_ID=your_google_client_id_from_cloud_console
-JWT_SECRET=your_super_secret_jwt_key
+**Create a .env**  
+**File in the server directory:**  
+env  
+PORT=5000  
+MONGODB_URI=mongodb://localhost:27017/buddychat  
+CLIENT_URL=http://localhost:3000  
+GOOGLE_CLIENT_ID=your_google_client_id_from_cloud_console  
+JWT_SECRET=your_super_secret_jwt_key  
+
+  
 Frontend (
 client/.env.local
-) Create a 
-.env.local
-**File in the client directory:**
-</n>
-env
-NEXT_PUBLIC_API_URL=http://localhost:5000
-NEXT_PUBLIC_SOCKET_URL=http://localhost:5000
-NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id_from_cloud_console
+) 
+**Create a .env.local**  
+**File in the client directory:**  
 
+env  
+NEXT_PUBLIC_API_URL=http://localhost:5000  
+NEXT_PUBLIC_SOCKET_URL=http://localhost:5000  
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id_from_cloud_console  
+  
 # Running the App
 Run both the frontend and backend concurrently with a single command:
 
