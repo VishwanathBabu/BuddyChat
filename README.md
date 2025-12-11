@@ -56,7 +56,7 @@ JWT_SECRET=your_super_secret_jwt_key
   
 Frontend (
 client/.env.local
-) 
+)  
 **Create a .env.local**  
 **File in the client directory:**  
 
