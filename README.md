@@ -39,14 +39,16 @@ bash
 
 npm run install:all
 
-Environment Secrets
+# .env files
 Backend (
 server/.env
-) Create a 
-.env
- file in the server directory:
+) 
 
-env
+<h2>Create a .env</h2>
+</n>
+<h2>**file in the server directory:**</h2>
+</n>
+<h2>env</h2>
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/buddychat
 CLIENT_URL=http://localhost:3000
@@ -56,13 +58,14 @@ Frontend (
 client/.env.local
 ) Create a 
 .env.local
- file in the client directory:
-
-env
+<h2>**file in the client directory:**</h2>
+</n>
+<h2>env</h2>
 NEXT_PUBLIC_API_URL=http://localhost:5000
 NEXT_PUBLIC_SOCKET_URL=http://localhost:5000
 NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id_from_cloud_console
-🏃‍♂️ Running the App
+
+# Running the App
 Run both the frontend and backend concurrently with a single command:
 
 bash
