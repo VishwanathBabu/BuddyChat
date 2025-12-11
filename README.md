@@ -1,4 +1,4 @@
-**BuddyChat**
+# BuddyChat
 
 
 BuddyChat is a premium, real-time messaging application built with the MERN stack (MongoDB, Express, React/Next.js, Node.js) and Socket.IO. It features a modern glassmorphism UI, secure Google Authentication, and instant message delivery.
