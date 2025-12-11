@@ -44,11 +44,11 @@ Backend (
 server/.env
 ) 
 
-<h2>Create a .env</h2>
+**Create a .env**
 </n>
-<h2>**file in the server directory:**</h2>
+**File in the server directory:**
 </n>
-<h2>env</h2>
+env
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/buddychat
 CLIENT_URL=http://localhost:3000
@@ -58,9 +58,9 @@ Frontend (
 client/.env.local
 ) Create a 
 .env.local
-<h2>**file in the client directory:**</h2>
+**File in the client directory:**
 </n>
-<h2>env</h2>
+env
 NEXT_PUBLIC_API_URL=http://localhost:5000
 NEXT_PUBLIC_SOCKET_URL=http://localhost:5000
 NEXT_PUBLIC_GOOGLE_CLIENT_ID=your_google_client_id_from_cloud_console
